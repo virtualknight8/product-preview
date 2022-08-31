@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vw;
+
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-align: left;
+  margin: 3%;
+}
+
+
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  text-align: left;
+  margin: 3%;
+
+}
+
+h1.second {
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+
+}
+
+p.third {
+  display: inline-block;
+
+}
+
+div.scontainer {
+  margin: 4%;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+}
+
+.forth {
+  text-align: center;
+  color: white;
+  padding: 6%;
+  width: 95%;
+  text-align: center;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+  position: relative;
+
+}
+
+i {
+  font-size: 100%;
+  margin-right: 3%;
+
+}
+
+#f:hover {
+  background-color: hsl(158, 36%, 20%);
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  left: 25%;
+  bottom: 24%;
+
+}
+
+@media screen and (min-width: 375px) {
+
+  body {
+    font-size: 90%;
+  }
+
+  div.container {
+    flex-direction: row;
+    border-radius: 10px;
+    max-width: 35%;
+    min-width: 400px;
+  }
+
+  div.scontainer {
+    margin: 2% 4%;
+    height: auto;
+
+
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+
+  }
+
+
+}
